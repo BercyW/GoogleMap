@@ -4,6 +4,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Geocoder Class"
+        />
+    <EditText
+        android:hint="Enter Address"
+        android:id="@+id/et_bottom_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Address"
+        android:id="@+id/btn_bottom_sendAddress"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Location"
+        android:id="@+id/btn_bottom_currentLocation"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_bottom_showCoordinates"
+        />
 
 </LinearLayout>

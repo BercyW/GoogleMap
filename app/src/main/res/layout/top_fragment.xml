@@ -5,22 +5,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Geocoding API"
+        />
     <EditText
         android:hint="Enter Address"
-        android:id="@+id/et_address"
+        android:id="@+id/et_top_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Send Address"
-        android:id="@+id/btn_sendAddress"
+        android:id="@+id/btn_top_sendAddress"
         />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Location"
+        android:id="@+id/btn_top_currentLocation"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_showCoordinates"
+        android:id="@+id/tv_top_showCoordinates"
         />
 
 </LinearLayout>
