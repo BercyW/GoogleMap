@@ -9,57 +9,21 @@
     >
 
 
-    <EditText
-        android:hint="Enter Latitude"
-        android:id="@+id/etLatitude"
+   <fragment
+       android:name="security.bercy.com.week5day4googlemap.view.fragment.TopFragment"
+       android:id="@+id/topFragment"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       />
+
+    <fragment
+        android:name="security.bercy.com.week5day4googlemap.view.fragment.BottomFragment"
+        android:id="@+id/bottomFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
 
-    <EditText
-        android:hint="Enter Longitude"
-        android:id="@+id/etLongitude"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:hint="Enter Address"
-        android:id="@+id/etAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:text="Get Latitude and Longitude from Address"
-        android:onClick="getLocationFromAddress"
-        android:id="@+id/btnAddressToLocation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:text="Get Address from Latitude and Longitude"
-        android:onClick="getAddressFromLocation"
-        android:id="@+id/btnLocationToAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:enabled="false"
-        android:onClick="addLocation"
-        android:text="Add Location to Map"
-        android:id="@+id/btnAddLocation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:text="---------"
-        android:id="@+id/tvDisplay"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:onClick="displayLocations"
-        android:id="@+id/btnDisplayAll"
-        android:text="Display All Locations on Map"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>
