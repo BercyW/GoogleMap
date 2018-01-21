@@ -26,6 +26,8 @@ public class RemoteDataSource {
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build();
         return  retrofit;
+
+
     }
 
 
