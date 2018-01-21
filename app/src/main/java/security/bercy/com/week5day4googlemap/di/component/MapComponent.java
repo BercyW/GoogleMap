@@ -8,5 +8,5 @@ import security.bercy.com.week5day4googlemap.view.MapActivity;
  */
 @Component
 public interface MapComponent {
-    void inject(MapActivity mapActivity);
+    void inject(MapActivity activity);
 }
